@@ -1,1 +1,1 @@
-### Portfolio made using SCSS
+### Portfolio made using SCSS that comiles to CSS
