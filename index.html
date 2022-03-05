@@ -3,131 +3,141 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title> &copy;Vuk Miletić|Portfolio</title>
+<title> &copy; Vuk Miletić | Portfolio</title>
 <link href="assets/css/styles.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
     <header>
-        <img src="assets/img/logooo.png" alt="Creative inc. logo" class="logo">
+        <img src="assets/img/logo.png" alt="&copy; Vuk Miletić - logo" class="logo">
         <nav>
             <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">About me</a></li>
-                <li><a href="">Contact me</a></li>
+                <li><a href="#about-me">About me</a></li>
+                <li><a href="#portfolio">My work</a></li>
+                <li><a href="#contact-me">Contact me</a></li>
             </ul>
         </nav>
     </header>
 
-    <section class="home-hero parallax--bg">
-        <div class="container">
-            <h1 class="title parallax--box">My Portfolio:
-            </h1>
-            <a href="" class="button button-accent">See My Work</a>
-        </div>
+    <section class="home-hero">
+        <div class="black-overlay">
+            <div class="container hero-container">
+                <h1 class="title">Vuk Miletić's <br> portfolio
+                </h1>
+                <a href="" class="button button-accent">See My Work</a>
+            </div>
     </section>
 
-    <div class="container">
+    <div class="container floating" id="about-me">
         <section class="home-about">
-            <div class="home-about-textbox parallax--box">
-                <h1>Who am i ?</h1>
-                <p>My name is Vuk Miletić. I am studying programing on Ict Collage, Belgrade.My hobby is taking pictures of nature, people or other stuff i like. This is my project, take a look of my best pictures and let me know your opinion! </p>
+            <div class="home-about-textbox">
+                <h1>Who am I ?</h1>
+                <p>My name is Vuk Miletić. I am studying programing on ICT College, Belgrade. My hobby is taking pictures of nature, people or other stuff I like. This is my portfolio, take a look of my best pictures and let me know your opinion! </p>
                 <p><strong>My dream is to become successfull programmer and photographer.</strong></p>
             </div>
         </section>
     </div>
 
 
-    <section class="portfolio">
-        <h1>Some of my work</h1>
+    <section class="portfolio" id="portfolio">
+        <h1>Some of my photographs</h1>
 
-        <!-- portfolio item 01 -->
         <figure class="port-item">
-            <img src="assets/img/ovcar.jpg" alt="portfolio item">
+            <img src="assets/img/belgrade.jpg" alt="portfolio item">
             <figcaption class="port-desc">
-                <p>Nature</p>
-                <a href="" class="button button-accent button-small">Project details</a>
+                <p>Belgrade, Serbia</p>
+                <a href="http://www.beograd.rs/index.php?kat=beoinfo&lang=cir&sub=220%3F" target="_blank" class="button button-accent button-small">About the location</a>
             </figcaption>
         </figure>
 
-        <!-- portfolio item 02 -->
         <figure class="port-item">
             <img src="assets/img/sunflower.jpg" alt="portfolio item">
             <figcaption class="port-desc">
-                <p>Sunflower</p>
-                <a href="" class="button button-accent button-small">Project details</a>
+                <p>Velika Plana, Serbia</p>
+                <a href="http://velikaplana.rs/" target="_blank" class="button button-accent button-small">About the location</a>
             </figcaption>
         </figure>
 
-        <!-- portfolio item 03 -->
         <figure class="port-item">
-            <img src="assets/img/Owl.jpg" alt="portfolio item">
+            <img src="assets/img/greece.jpg" alt="portfolio item">
             <figcaption class="port-desc">
-                <p>Owl</p>
-                <a href="" class="button button-accent button-small">Project details</a>
+                <p>Santorini, Greece</p>
+                <a href="https://www.greeka.com/cyclades/santorini/" target="_blank" class="button button-accent button-small">About the location</a>
             </figcaption>
         </figure>
 
-        <!-- portfolio item 04 -->
         <figure class="port-item">
-            <img src="assets/img/Beach.jpg" alt="portfolio item">
+            <img src="assets/img/bled.jpg" alt="portfolio item">
             <figcaption class="port-desc">
-                <p>Beach</p>
-                <a href="" class="button button-accent button-small">Project details</a>
+                <p>Lake Bled, Slovenia</p>
+                <a href="https://slovenija-terme.rs/bled/" target="_blank" class="button button-accent button-small">About the location</a>
             </figcaption>
         </figure>
 
-        <!-- portfolio item 05 -->
         <figure class="port-item">
-            <img src="assets/img/portfolio-03.jpg" alt="portfolio item">
+            <img src="assets/img/barcelona.jpg" alt="portfolio item">
             <figcaption class="port-desc">
-                <p>Whale</p>
-                <a href="" class="button button-accent button-small">Project details</a>
+                <p>Barcelona, Spain</p>
+                <a href="https://www.barcelona.com/" target="_blank" class="button button-accent button-small">About the location</a>
             </figcaption>
         </figure>
 
-        <!-- portfolio item 06 -->
         <figure class="port-item">
-            <img src="assets/img/portfolio-06.jpg" alt="portfolio item">
+            <img src="assets/img/skii.jpg" alt="portfolio item">
             <figcaption class="port-desc">
-                <p>Project title</p>
-                <a href="" class="button button-accent button-small">Project details</a>
+                <p>Kopaonik, Serbia</p>
+                <a href="https://www.infokop.net/" target="_blank" class="button button-accent button-small">About the location</a>
             </figcaption>
         </figure>
-
         </section>
 
-        <section class="cta">
-        <div class="container">
-            <h1 class="title title-cta">Do you like what you see?
-                <span>Then what are you waiting for?</span>
-            </h1>
-            <a href="" class="button button-dark">Contact me!</a>
-        </div>
+        <section class="contact" id="contact-me">
+            <div class="container">
+                <h1 class="title title-cta">Do you like my work?
+                    <span>Then what are you waiting for?</span>
+                </h1>
+                <a href="mailto:vuk.miletic.167.21@ict.edu.rs" class="button button-dark">Contact me!</a>
+            </div>
         </section>
 
         <footer>
             <div class="container">
-                <div class="col-3">
-                    <p></p>
+                <div class="footer-desc text-center">
+                    <h3>Vuk Miletić 2022</h3>
+                    <p>All rights go to their rightful owners.</p>
                 </div>
-
-                <div class="col-1">
-                    <ul class="unstyled-list">
-                        <li><a href="/assets/css/styles.scss" target="_blank">SCSS</a></li>
-                    </ul>
-                </div>
-
-                <div class="col-1">
-                    <ul class="unstyled-list">
-                    </ul>
-                </div>
-
-                <div class="col-1">
-                    <ul class="unstyled-list">
-
-                    </ul>
-                </div>
+                <ul class="unstyled-list">
+                    <li>
+                        <a href="https://www.instagram.com/kivux_02/" target="_blank">
+                            <img src="https://img.icons8.com/fluency/48/000000/instagram-new.png"/>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/miletic2002" target="_blank">
+                            <img src="https://img.icons8.com/color/48/000000/twitter--v1.png"/>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/assets/css/styles.scss" target="_blank">
+                            <img src="https://img.icons8.com/color/48/000000/sass.png"/>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="sitemap.xml" target="_blank">
+                            <img src="https://img.icons8.com/external-xnimrodx-lineal-gradient-xnimrodx/64/000000/external-sitemap-responsive-design-xnimrodx-lineal-gradient-xnimrodx.png"/>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/assets/css/styles.css" target="_blank">
+                            <img src="https://img.icons8.com/color/48/000000/css3.png"/>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="robots.txt" target="_blank">
+                            <img src="https://img.icons8.com/external-photo3ideastudio-gradient-photo3ideastudio/64/000000/external-robot-digital-business-photo3ideastudio-gradient-photo3ideastudio.png"/>
+                        </a>
+                    </li>
+                </ul>
             </div>
         </footer>
     </body>
