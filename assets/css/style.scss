@@ -69,7 +69,7 @@ p {
     margin-top: 1em;
 
     span {
-        font-weight: 300;
+        $font-weight-sm;
         display: block;
         font-size: .9em;
     }
@@ -104,7 +104,7 @@ p {
 
     &-small {
         font-size: .7rem !important;
-        font-weight: 700;
+        $font-weight-md;
     }
 
     &-accent {
@@ -156,7 +156,7 @@ nav {
     }
 
     a {
-        font-weight: 900;
+        $font-weight-ig;
         text-decoration: none;
         padding: .5em;
         text-transform: uppercase;
